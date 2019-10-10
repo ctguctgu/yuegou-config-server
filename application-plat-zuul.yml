@@ -1,0 +1,13 @@
+server:
+  port: 9999
+spring:
+  application:
+    name: YUEGOU-ZUUL
+
+zuul:
+  ignored-services: '*' #只能通过路由访问，不能使用服务名访问
+  routes:
+    plat:
+      serviceId: YUEGOU-PLAT
+      path: /plat/**
+  prefix: /services
