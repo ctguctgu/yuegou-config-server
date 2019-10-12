@@ -5,7 +5,7 @@ spring:
     name: YUEGOU-PRODUCT
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql:///mybatis?serverTimezone=UTC
+    url: jdbc:mysql:///yuegou-product?serverTimezone=UTC
     username: root
     password: 821096
 mybatis-plus:
