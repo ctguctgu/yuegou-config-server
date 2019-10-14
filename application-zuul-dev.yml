@@ -13,7 +13,7 @@ zuul:
     product:
       serviceId: YUEGOU-PRODUCT
       path: /product/**
-    product:
+    common:
       serviceId: YUEGOU-COMMON
       path: /common/**
   prefix: /services
