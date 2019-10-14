@@ -17,7 +17,6 @@ zuul:
       serviceId: YUEGOU-COMMON
       path: /common/**
   prefix: /services
-
 hystrix:
   command:
     default:

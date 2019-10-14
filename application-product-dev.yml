@@ -8,5 +8,6 @@ spring:
     url: jdbc:mysql:///yuegou-product?serverTimezone=UTC
     username: root
     password: 821096
+
 #mybatis-plus:
   #mapper-locations: classpath*:cn/it/yuegou/mapper/*Mapper.xml
